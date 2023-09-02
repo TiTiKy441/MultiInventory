@@ -1,0 +1,13 @@
+name: MultiInventory
+main: Plugin\Plugin\Main
+description: Allows players to switch inventories in different gamemodes
+src-namespace-prefix: Plugin
+version: 1.0.0
+api: 5.0.0
+
+load: POSTWORLD
+author: ConfusedIn
+permissions:
+  multiinventory.multiinventory.enable:
+    description: Player with this permission have multiple inventories in different gamemodes
+    default: true
