@@ -18,7 +18,7 @@ BETA 1.0.0
 ## Setup
 ### plugin_data/MultiInventory/config.yml
  - permission (default multiinventory.multiinventory.enable) permission for switching inventories
- - clearondeath (default 0) if set to anything, except 0 will clear inventories on death in all gamemodes
+ - clearondeath (default 1) if set to anything, except 0 will clear inventories on death in all gamemodes
  - survival (default 0) slot for survival inventory
  - creative (default 1) slot for creative inventory
  - adventure (default 2) slot for adventure inventory
