@@ -27,8 +27,8 @@ use unserialize;
  *
  * NOTE: API uses player UUID(or XUID if signed in) or Names, depends on USE_NAMEKEY const
  *
- * @version    Release: 1 for PM5 (5.4.0)
- * @author     TiTiKy
+ * @version    Release: 1 for PM5 (tested on 5.4.0)
+ * @author     ConfusedIn
  */
 
 class InventoriesAPI{
