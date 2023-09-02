@@ -22,7 +22,7 @@ class Main extends PluginBase{
     if (!$this->config->__isset("permission")){
       $this->getLogger()->info('Config set to defaults.');
       $this->config->set("permission", "multiinventory.multiinventory.enable");
-      $this->config->set("clearondeath", "0");
+      $this->config->set("clearondeath", 1);
       $this->config->set("survival", 0);
       $this->config->set("creative", 1);
       $this->config->set("adventure", 2);

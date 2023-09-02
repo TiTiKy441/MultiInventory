@@ -75,7 +75,7 @@ class MainListener implements Listener{
 
   public function onPlayerDeath(PlayerDeathEvent $event) : void{
     $player = $event->getPlayer();
-    if(!$player->hasPermission($this->permission) || $this->plugin->config->get("clearondeath")) return;
+    if(!$player->hasPermission($this->permission) || $this->plugin->config->get("clearondeath") == 0) return;
     $this->api->clearInventoryInSlot($player, $this->getInventorySlot($player->getGamemode()));
   }
 
