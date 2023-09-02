@@ -2,6 +2,11 @@
  Plugin for PocketMine-MP (5) for saving and loading inventories
  By default creates 4 slots fr different gamemodes and switches between them when gamemode is changed
 
+## Status
+In development, currently beta, may contain bugs
+#### Latest version 
+BETA 1.0.0
+
 ## Requirements
 - PocketMine-MP 5
 
