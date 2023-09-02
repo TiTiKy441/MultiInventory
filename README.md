@@ -10,6 +10,11 @@ BETA 1.0.0
 ## Requirements
 - PocketMine-MP 5
 
+## Permissions
+- multiinventory.multiinventory.enable
+ - description: Player with this permission have multiple inventories in different gamemodes
+ - default: yes
+
 ## Setup
 ### plugin_data/MultiInventory/config.yml
  - permission (default multiinventory.multiinventory.enable) permission for switching inventories
