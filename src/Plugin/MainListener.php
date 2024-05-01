@@ -34,7 +34,7 @@ class MainListener implements Listener{
 	 */
 	public function onGamemodeChanged(PlayerGameModeChangeEvent $event) : void{
     $player = $event->getPlayer();
-    if ($event->isCancelled() || !$player->hasPermission($this->permission)) return;
+    if ($event->isCancelled() || !$player->hasPermission($this->permission) || !$this->api->existsItems($player)) return;
 
     $this->api->saveItemsToSlot($player, $this->getInventorySlot($player->getGamemode()));
     $this->api->loadItemsFromSlot($player, $this->getInventorySlot($event->getNewGamemode()));
