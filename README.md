@@ -1,5 +1,5 @@
 # MultiInventory
- Plugin for PocketMine-MP (5) for saving and loading inventories
+ Plugin for PocketMine-MP (5) for switching inventories when changing gamemodes.
  By default creates 4 slots for different gamemodes and switches between them when gamemode is changed
 
 ## Status
