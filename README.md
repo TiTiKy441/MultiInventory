@@ -4,6 +4,7 @@
 
 ## Status
 In development, currently beta, may contain bugs
+24.04.2025: Archived.
 #### Latest version 
 BETA 1.0.0
 
